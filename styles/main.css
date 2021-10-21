@@ -1,0 +1,224 @@
+/* DEVELOPER Ibrahim Hamza, IS117-002, Spring 2020 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    background-color: white;
+    max-width: 100%;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    width: 100%;
+
+}
+
+
+header img {
+    margin-left: 48%;
+
+}
+
+
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+.carousel-caption h1{
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 800px;
+    text-align: center;
+    text-shadow: 15px 15px 15px #222222;
+
+}
+
+.navbar{
+    padding: 0;
+    border-radius: 0;
+
+}
+
+.bg-dark{
+    background-color: #222222 !important;
+}
+
+.nav-item{
+/*    margin: 0 17em;*/
+    font-size: 128%;
+
+
+}
+
+.nav-link{
+    color: white !important;
+
+}
+
+.nav-item .nav-link:hover {
+    color: grey !important;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+
+}
+.dropdown-menu{
+    background-color: #222222;
+    width: 592px;
+}
+.dropdown-item {
+    text-align: center;
+    color: white;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #222222 !important;
+    color: grey;
+}
+
+
+/*
+.nav-item .nav-link {
+    float: left;
+    margin: 0 15em;
+    text-align: center;
+    font-size: 1.5em;
+    color: white !important;
+
+}
+
+.nav-item .nav-link:hover {
+    color: grey !important;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu{
+    background-color: #222222;
+}
+
+.dropdown-item {
+    text-align: center;
+    margin-right: 490px;
+    color: white;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #222222 !important;
+    color: grey;
+}
+
+.navbar-collapse .nav-item{
+    margin :0;
+
+}
+*/
+
+#carouselExampleIndicators {
+    bottom: 2em;
+    min-width: 100%;
+    max-height: 1000px;
+    max-width: 100%;
+}
+.carousel-item {
+    max-height: 1000px;
+    min-width: 100%;
+
+
+}
+
+
+
+aside {
+    padding: 0 15em;
+}
+
+aside h2{
+    margin-top: 2em;
+    font-weight: 1000;
+    margin-left: 0.5em;
+}
+
+aside > p{
+    font-size: 175%;
+    margin-left:1em ;
+}
+
+aside ul{
+    margin-left: 1em;
+    padding-left: 1em;
+    padding-bottom: 3em;
+    font-size: 175% ;
+    list-style-type: circle;
+
+}
+
+.card-deck{
+    margin-bottom: 7em;
+    min-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-title{
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: 120%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    header img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    aside {
+        padding: 0;
+    }
+
+
+    main{
+        overflow: hidden;
+    }
+    .card-deck {
+        margin: 4em 12em;
+        min-width: auto;
+    }
+    .navbar{
+        margin-bottom: 0;
+    }
+
+}
+
+
+
+

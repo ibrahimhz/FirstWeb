@@ -1,0 +1,200 @@
+
+<!-- DEVELOPER Ibrahim Hamza, IS117-002, Spring 2020 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>A Historical Legacy</title>
+    <link rel="shortcut icon" href="images/header/logoillustrator1.png">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/beforeaftergallery.css">
+
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/header/logoillustrator1.png" >
+        </a>
+
+    </header>
+
+    <div class="row">
+        <nav class="navbar navbar-expand-lg
+                        justify-content-start
+                        bg-dark navbar-dark
+                        col-12">
+
+            <!-- Responsive Button for the smaller menu-->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav nav-fill w-100">
+                    <!--Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="beforeaftergallery.html">Before/After Gallery</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About Us/Donations
+                        </a>
+                        <div class="dropdown-menu nav-fill w-100" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="aboutus.html">About Us</a>
+                            <a class="dropdown-item" href="donations.html">Donations</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+
+        </ol>
+        <div class="carousel-inner" >
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/carousel/beforeaftergallerycarousel/city11.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/carousel/beforeaftergallerycarousel/hillsbywater.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/carousel/beforeaftergallerycarousel/ancienthouses.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/carousel/beforeaftergallerycarousel/citadelaleppo.jpg" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/carousel/beforeaftergallerycarousel/dock.jpg" alt="Fifth slide">
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <aside>
+        <h2> Hover Over The Images to View Before and After Shots</h2>
+    <!-- cards1 -->
+        <div class="card-deck">
+            <div class="card " style="width: 31.25em;">
+                <img class="card-img-top " src="images/gallery/40.1.jpg" alt="Picture of the old city of Aleppo" onmouseover="this.src='images/gallery/40.2.jpg'" onmouseout="this.src='images/gallery/40.1.jpg'" >
+                <div class="card-body">
+                    <h5 class="card-title">Old City of Aleppo</h5>
+                    <p class="card-text">The before picture was taken on November 28th, 2008, and the after picture was taken on December 13th, 2016.</p>
+                    <p class="card-text"><small class="text-muted">Credits: Independent.co.uk</small></p>
+                </div>
+            </div>
+            <div class="card " style="width: 31.25em;">
+                <img class="card-img-top " src="images/gallery/41.1.jpg" alt="Picture of the Great Ummayyad Mosque" onmouseover="this.src='images/gallery/41.2.jpg'" onmouseout="this.src='images/gallery/41.1.jpg'">
+                <div class="card-body">
+                    <h5 class="card-title">The Great Umayyad Mosque</h5>
+                    <p class="card-text">The Great Mosque is one of the largest and oldest mosques in Syria and the ancient minaret was destroyed during the conflict in the region.<br> The before picture was taken on March 12th, 2009, and the after picture was taken in 2016.</p>
+                    <p class="card-text"><small class="text-muted">Credits: Independent.co.uk</small></p>
+
+                </div>
+            </div>
+        </div>
+    <!-- cards2 -->
+
+            <div class="card-deck">
+                <div class="card " style="width: 31.25em;">
+                    <img class="card-img-top " src="images/gallery/45.1.jpg" alt="Picture of the front gates of the Citadel of Aleppo" onmouseover="this.src='images/gallery/45.2.jpg'" onmouseout="this.src='images/gallery/45.1.jpg'" >
+                    <div class="card-body">
+                        <h5 class="card-title">Citadel of Aleppo</h5>
+                        <p class="card-text">One of the oldest and largest castles in the world. It's the most famous architectural site in Syria while being 50 meters above the city and surrounded by a trench.<br> The before picture was taken on August 9th, 2010, and the after picture was taken in 2016.</p>
+                        <p class="card-text"><small class="text-muted">Credits: Independent.co.uk</small></p>
+                    </div>
+                </div>
+                <div class="card " style="width: 31.25em;">
+                    <img class="card-img-top " src="images/gallery/43.1.jpg" alt="Card image cap" onmouseover="this.src='images/gallery/43.2.jpg'" onmouseout="this.src='images/gallery/43.1.jpg'">
+                    <div class="card-body">
+                        <h5 class="card-title">Entrance to Al-Zarab Souk</h5>
+                        <p class="card-text">The before picture was taken on November 24th, 2008, and the after picture was taken in 2016.</p>
+                        <p class="card-text"><small class="text-muted">Credits: Independent.co.uk</small></p>
+
+                    </div>
+                </div>
+            </div>
+    <!-- cards3 -->
+            <div class="card-deck">
+                <div class="card " style="width: 31.25em;">
+                    <img class="card-img-top " src="images/gallery/44.1.jpg" alt="Picture of the public bath in Syria." onmouseover="this.src='images/gallery/44.2.jpg'" onmouseout="this.src='images/gallery/44.1.jpg'" >
+                    <div class="card-body">
+                        <h5 class="card-title">Hammam al-Nahasin</h5>
+                        <p class="card-text">A very popular tourist attraction, Hammam al-Nahasin is public bath that dates back to the 13th century. <br> The before picture was taken on October 6th, 2010.</p>
+                        <p class="card-text"><small class="text-muted">Credits: Independent.co.uk</small></p>
+
+                    </div>
+                </div>
+                <div class="card " style="width:31.25em;">
+                    <img class="card-img-top " src="images/gallery/17.1.jpg" alt="Picture of the Cathedral of Saint Elijah" onmouseover="this.src='images/gallery/17.2.jpg'" onmouseout="this.src='images/gallery/17.1.jpg'">
+                    <div class="card-body">
+                        <h5 class="card-title">Cathedral of Saint Elijah</h5>
+                        <p class="card-text">A historic church in Farhat Square located in al-Jdayde.</p>
+                        <p class="card-text"><small class="text-muted">Credits: Olympia Restaurant</small></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- cards4 -->
+            <div class="card-deck">
+                <div class="card " style="width: 31.25em;">
+                    <img class="card-img-top " src="images/gallery/6.1.jpg" alt="A street near the Citadel of Aleppo" onmouseover="this.src='images/gallery/6.2.jpg'" onmouseout="this.src='images/gallery/6.1.jpg'" >
+                    <div class="card-body">
+                        <h5 class="card-title">Khan al-Wazeer</h5>
+                        <p class="card-text">A street Near the Citadel.</p>
+                        <p class="card-text"><small class="text-muted">Credits: Olympia Restaurant</small></p>
+
+                    </div>
+                </div>
+                <div class="card " style="width: 31.25em;">
+                    <img class="card-img-top " src="images/gallery/2.1.jpg" alt="Picture of an Ancient Market" onmouseover="this.src='images/gallery/2.2.jpg'" onmouseout="this.src='images/gallery/2.1.jpg'">
+                    <div class="card-body">
+                        <h5 class="card-title">Ancient Market</h5>
+                        <p class="card-text">One of the oldest markets in the world.</p>
+                        <p class="card-text"><small class="text-muted">Credits: Olympia Restaurant</small></p>
+
+                    </div>
+                </div>
+            </div>
+    </aside>
+        <footer class="footer page-footer font-small  ">
+            <span class="text-muted">&copy; Ibrahim Hamza, 2020 |  Terms Of Use  |  Privacy Statement</span>
+        </footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

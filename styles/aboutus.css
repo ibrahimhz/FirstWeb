@@ -1,0 +1,119 @@
+/* DEVELOPER Ibrahim Hamza, IS117-002, Spring 2020 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    height: 100%;
+    max-width: 100%;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: #f3f3f3 !important;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    max-font-size: 2321.15px;
+
+}
+
+
+header img{
+    margin-left: 48%;
+
+}
+
+
+
+h1{
+    font-weight: 1000;
+    margin-top: 2em;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 32%;
+    width: 37.24%;
+    font-size: 200%;
+    font-weight: 300;
+    margin-bottom: 3em;
+
+}
+
+
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+
+}
+
+
+.navbar{
+    padding: 0;
+    border-radius: 0;
+
+}
+
+.bg-dark{
+    background-color: #222222 !important;
+}
+
+.nav-item{
+    font-size: 128%;
+
+}
+
+.nav-link{
+    color: white !important;
+
+}
+
+.nav-item .nav-link:hover {
+    color: grey !important;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu{
+    background-color: #222222;
+}
+.dropdown-item {
+    text-align: center;
+    color: white;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #222222 !important;
+    color: grey;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+
+}
+
+@media only screen and (max-width: 767px) {
+    header img{
+        display: block;
+        margin: 0 auto;
+    }
+
+}
